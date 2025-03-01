@@ -1,0 +1,15 @@
+/*
+Theme Name: Custom Theme
+Author: Your Name
+Version: 1.0
+*/
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .projects-grid { grid-template-columns: 1fr; }
+    .main-menu ul { flex-direction: column; }
+}
