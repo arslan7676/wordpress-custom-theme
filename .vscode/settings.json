@@ -1,0 +1,8 @@
+{
+    "intelephense.environment.includePaths": [
+        "./vendor/php-stubs/wordpress-stubs",
+        "./vendor/php-stubs/wordpress-globals"
+    ],
+    "intelephense.diagnostics.undefinedTypes": false,
+    "wordpress.enable": true
+}

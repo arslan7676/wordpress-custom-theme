@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'yourname/customtheme',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '83d7a55a16a37ed6bfb61ce5993a27b335ea4001',
+        'type' => 'wordpress-theme',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'php-stubs/wordpress-globals' => array(
+            'pretty_version' => 'v0.2.0',
+            'version' => '0.2.0.0',
+            'reference' => '748a1fb2ae8fda94844bd0545935095dbf404b32',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-stubs/wordpress-globals',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'php-stubs/wordpress-stubs' => array(
+            'pretty_version' => 'v6.7.2',
+            'version' => '6.7.2.0',
+            'reference' => 'c04f96cb232fab12a3cbcccf5a47767f0665c3f4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-stubs/wordpress-stubs',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'yourname/customtheme' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '83d7a55a16a37ed6bfb61ce5993a27b335ea4001',
+            'type' => 'wordpress-theme',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

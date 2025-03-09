@@ -1,0 +1,14 @@
+{
+    "name": "yourname/customtheme",
+    "description": "Custom WordPress Theme",
+    "type": "wordpress-theme",
+    "require-dev": {
+        "php-stubs/wordpress-stubs": "^6.7",
+        "php-stubs/wordpress-globals": "^0.2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-stubs/composer-plugin": true
+        }
+    }
+}
